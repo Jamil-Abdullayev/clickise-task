@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Laravel + Vue</title>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+</head>
+<body>
+<div id="app">
+    <settings-form :setting="{ id: 1, requires_verification: true }"></settings-form>
+</div>
+</body>
+</html>
